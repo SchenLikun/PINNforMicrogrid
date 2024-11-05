@@ -94,7 +94,8 @@ class PID():
                 Iqref - Iq - DeltaIq
             ]
 
-
+        def taylor_sin(x):
+            return x - (x**3)/6 + (x**5)/120
 
         self.pi_ode = PI_ode
         self.real_value_list = [self.real_PQkp, self.real_PQki, self.real_Ikp, self.real_Iki]
@@ -210,11 +211,11 @@ class PID():
                 return torch.concat(
                     (
                         t,
-                        torch.sin(t),
-                        torch.sin(2 * t),
-                        torch.sin(3 * t),
-                        torch.sin(4 * t),
-                        torch.sin(5 * t),
+                        taylor_sin(t),
+                        taylor_sin(2 * t),
+                        taylor_sin(3 * t),
+                        taylor_sin(4 * t),
+                        taylor_sin(5 * t),
                     ),
                     axis=1,
                 )
