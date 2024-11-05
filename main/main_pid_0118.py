@@ -193,9 +193,9 @@ if __name__ == "__main__":
                     )
 
     # microgird.build()
-    microgird.build(transform='all',
+    microgird.build(transform=None,
                     net=dde.nn.FNN([6] + [100] * 3 + [2], "tanh", "Glorot uniform"),
                     lr=1e-3,
                     iterations=1000000)
 
-    microgird.train()
+    # microgird.train()

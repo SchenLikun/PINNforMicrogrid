@@ -185,7 +185,7 @@ class PID():
         data = dde.data.PDE(
             geom,
             self.pi_ode,
-            [ observe_y0, ic0, ic1,ic2,ic3,ic4,  observe_y2,  observe_y4],
+            [ observe_y0, ic0, ic1, ic2, ic3, ic4, observe_y2,  observe_y4],
             # [],
             anchors=observe_t,
         )
