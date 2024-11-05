@@ -122,6 +122,69 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0714_eq_pinn_out_2pflt.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0714_eq_pinn_out_3pflt.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0714_eq_toolbox_inner_2pflt.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0714_eq_toolbox_out_2pflt.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0714_orginal_inner_3pflt.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0714_original_normal.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0715_eq_pinn_inner_2pflt_whole.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0717_pinn_nocons_inner_3pflt_vf.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\EquivalenceModeling\load\equivalence_data\0717_toolbox_inner_3pflt_vf.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\history_data\1208_LdChange_H1.5D0.25.csv">
           <value>
             <Attribute>
@@ -172,6 +235,13 @@
           </value>
         </entry>
         <entry key="\data\history_data\ParaEs_Synchronous\2-order for H AND D\927testforTe2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\load\flt_ab_test1.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
